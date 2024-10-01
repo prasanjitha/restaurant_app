@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.backgroundImage {
+    position: absolute;
+    z-index: -1;
+   
+}
+
+
+.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 460px;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.5rem;
+}

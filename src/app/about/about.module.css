@@ -1,0 +1,79 @@
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffcc99;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.intro,
+.mission,
+.services,
+.locations,
+.management {
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.intro h2,
+.mission h2,
+.services h2,
+.locations h2,
+.management h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro p,
+.mission p,
+.locations p,
+.management p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.services ul,
+.locations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li,
+.locations li {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}

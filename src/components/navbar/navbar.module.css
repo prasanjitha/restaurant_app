@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    z-index: 1;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ffcc00;
+}
+
+.active {
+    color: #ffcc00 !important;
+    font-weight: bold;
+}
